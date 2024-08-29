@@ -1,3 +1,5 @@
 fun main() {
-    println("Hello World!")
+    var police = Police("NYPD", "+120243002")
+    police.serviceInfo()
+    police.getDescriprion()
 }
